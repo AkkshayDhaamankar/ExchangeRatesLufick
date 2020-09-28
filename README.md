@@ -10,6 +10,7 @@ Developed Using :-
 
 
 # GIF Of Application :-
+![LufickMobileOPT](https://user-images.githubusercontent.com/25646373/94419598-a5069800-01a0-11eb-97d0-41dd072cb533.gif)
 
 
 
