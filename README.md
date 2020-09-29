@@ -1,16 +1,21 @@
-# lufick_test
+# Flutter Exchange Rates Api (https://api.exchangeratesapi.io/latest)
 
-A new Flutter project.
+Developed Using :-
+1. MOOR (Room DB for SQFlite).
+2. Dependency Injection.
+3. BLOC Pattern.
+4. Clean Architecture.
+5. TDD
+6. SharedPreferences.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+# GIF Of Application :-
+![LufickMobileOPT](https://user-images.githubusercontent.com/25646373/94419598-a5069800-01a0-11eb-97d0-41dd072cb533.gif)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+# GIF Of Test Cases(TDD) :- 
+![LufickTestOPT](https://user-images.githubusercontent.com/25646373/94419701-c5365700-01a0-11eb-88a1-cc8a90f614e3.gif)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+
