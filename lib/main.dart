@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'features/coin_dcx/presentation/bloc/converted_rates_bloc.dart';
-import 'features/coin_dcx/presentation/bloc/exchange_bloc_bloc.dart';
-import 'features/coin_dcx/presentation/bloc/exchange_rates_bloc.dart';
-import 'features/coin_dcx/presentation/pages/exchange_rate_page.dart';
+import 'features/exchange_rates/presentation/bloc/converted_rates_bloc.dart';
+import 'features/exchange_rates/presentation/bloc/exchange_bloc_bloc.dart';
+import 'features/exchange_rates/presentation/bloc/exchange_rates_bloc.dart';
+import 'features/exchange_rates/presentation/pages/exchange_rate_page.dart';
 import 'injection_container.dart' as di;
 import 'injection_container.dart';
 

@@ -1,19 +1,19 @@
 import 'package:get_it/get_it.dart';
 import 'package:http/http.dart' as http;
 import 'package:data_connection_checker/data_connection_checker.dart';
-import 'package:lufick_test/features/coin_dcx/data/datasources/converted_exchange_rates_local_data_source.dart';
-import 'package:lufick_test/features/coin_dcx/data/datasources/exchange_rates_remote_data_source.dart';
-import 'package:lufick_test/features/coin_dcx/data/repositories/exchange_rates_repository_impl.dart';
-import 'package:lufick_test/features/coin_dcx/domain/repositories/exchange_rate_repository.dart';
-import 'package:lufick_test/features/coin_dcx/domain/usecases/get_converted_rates.dart';
-import 'package:lufick_test/features/coin_dcx/domain/usecases/get_exchange_rates.dart';
-import 'package:lufick_test/features/coin_dcx/domain/usecases/get_refresh_date.dart';
-import 'package:lufick_test/features/coin_dcx/presentation/bloc/converted_rates_bloc.dart';
-import 'package:lufick_test/features/coin_dcx/presentation/bloc/exchange_bloc_bloc.dart';
-import 'package:lufick_test/features/coin_dcx/presentation/bloc/exchange_rates_bloc.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'core/network/network_info.dart';
+import 'features/exchange_rates/data/datasources/converted_exchange_rates_local_data_source.dart';
+import 'features/exchange_rates/data/datasources/exchange_rates_remote_data_source.dart';
+import 'features/exchange_rates/data/repositories/exchange_rates_repository_impl.dart';
+import 'features/exchange_rates/domain/repositories/exchange_rate_repository.dart';
+import 'features/exchange_rates/domain/usecases/get_converted_rates.dart';
+import 'features/exchange_rates/domain/usecases/get_exchange_rates.dart';
+import 'features/exchange_rates/domain/usecases/get_refresh_date.dart';
+import 'features/exchange_rates/presentation/bloc/converted_rates_bloc.dart';
+import 'features/exchange_rates/presentation/bloc/exchange_bloc_bloc.dart';
+import 'features/exchange_rates/presentation/bloc/exchange_rates_bloc.dart';
 
 final serviceLocator = GetIt.instance;
 
